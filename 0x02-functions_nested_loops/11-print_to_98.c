@@ -2,9 +2,9 @@
 /**
  * print_to_98 - Prints all natural numbers from n to 98
  * @n: Number
- * Return: Always 0
+ * Return: Natural numbers up to 98
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	int a, b, c;
 
