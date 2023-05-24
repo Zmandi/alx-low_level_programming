@@ -28,10 +28,10 @@ int main(int argc, char *argv[])
 	{
 		if (k == nbytes - 1)
 		{
-			printf("%02x\n", ptr[k]);
+			printf("%02hhx\n", ptr[k]);
 			break;
 		}
-		printf("%02x\n", ptr[k]);
+		printf("%02hhx\n", ptr[k]);
 	}
 	return (0);
 }
